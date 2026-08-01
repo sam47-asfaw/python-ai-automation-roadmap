@@ -154,29 +154,56 @@ If you can build and deploy this, you've learned the whole roadmap.
 
 ---
 
+## Progress
+
+| Phase | Weeks | Status |
+|-------|-------|--------|
+| 1 — Python Foundations | 1–3 | ⬜ Not started |
+| 2 — Automation Fundamentals | 4–6 | ⬜ Not started |
+| 3 — AI Tooling Layer | 7–9 | ⬜ Not started |
+| 4 — Data Pipelining | 10–12 | ⬜ Not started |
+| 5 — Production | 13–15 | ⬜ Not started |
+
+Update this table (⬜ → 🟡 in progress → ✅ done) as each week wraps up.
+
+---
+
 ## Repo Structure
 
 ```
 python-ai-automation-roadmap/
 ├── README.md
-├── week-01-core-syntax/
-├── week-02-functions-oop/
-├── week-03-typing-async/
-├── week-04-os-file-automation/
-├── week-05-web-scraping-bots/
-├── week-06-scheduling-cli/
-├── week-07-anthropic-sdk/
-├── week-08-tool-use-claude-code/
-├── week-09-mcp-retrieval/
-├── week-10-etl-dataframes/
-├── week-11-orchestration/
-├── week-12-queues-async/
-├── week-13-containerization/
-├── week-14-reliability-observability/
-└── week-15-cicd-capstone/
+├── week-01/   # Core syntax
+├── week-02/   # Functions & OOP
+├── week-03/   # Typing & async
+├── week-04/   # OS & file automation
+├── week-05/   # Web scraping & bots
+├── week-06/   # Scheduling & CLI
+├── week-07/   # Anthropic SDK
+├── week-08/   # Tool use & Claude Code
+├── week-09/   # MCP & retrieval
+├── week-10/   # ETL & dataframes
+├── week-11/   # Orchestration
+├── week-12/   # Queues & async pipelines
+├── week-13/   # Containerization
+├── week-14/   # Reliability & observability
+└── week-15/   # CI/CD & capstone
 ```
 
-Each week folder should contain its own `README.md` (notes + what you built) and the code for that week's deliverable.
+Each week folder has its own `README.md` (notes + what you built) and the code for that week's deliverable.
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/sam47-asfaw/python-ai-automation-roadmap.git
+cd python-ai-automation-roadmap/week-01
+```
+
+Recommended tooling:
+- [`uv`](https://docs.astral.sh/uv/) for Python env/dependency management
+- An [Anthropic API key](https://console.anthropic.com/) from Week 7 onward (`ANTHROPIC_API_KEY` in a local `.env`, never committed)
 
 ---
 
@@ -191,5 +218,3 @@ Each week folder should contain its own `README.md` (notes + what you built) and
 ## License
 
 MIT — do whatever you like with this plan.
-#   p y t h o n - a i - a u t o m a t i o n - r o a d m a p  
- 
