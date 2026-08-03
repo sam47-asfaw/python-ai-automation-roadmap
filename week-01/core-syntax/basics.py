@@ -1,6 +1,5 @@
 '''Python Basics:'''
 
-'''
 # Python Data Types
 
 # Integer -> are whole numbers
@@ -49,7 +48,7 @@ print("String + String: ", "Hello, " + "World!") # output: Hello, World!
 print("Boolean: ", (x + y)==22.5) #output: False
 #print("String + Integer: ", "Hello, " + 10) # output: TypeError: can only concatenate string with string types
  
- '''
+ 
 
 # User input in Python
 
