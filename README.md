@@ -150,8 +150,6 @@ A single project that touches every layer of the architecture:
 
 > **Scheduled scrape → Pydantic validation → Claude classification/enrichment → Postgres → cost-logged, containerized, CI-tested, orchestrated.**
 
-If you can build and deploy this, you've learned the whole roadmap.
-
 ---
 
 ## Progress
