@@ -9,7 +9,6 @@ compare two values and evaluate down to a single Boolean value.
 
 '''
 # relational operators
-
 print("Equal to: ", 10 == 10) # output: True
 print("Not equal to: ", 10 != 10) # output: False
 print("Greater than: ", 10 > 5) # output: True
@@ -20,8 +19,7 @@ print("Less than or equal to: ", 10 <= 5) # output: False
 # '==' is used to compare two values, 
 # while '=' is used to assign a value to a variable.
 # Boolean operators
-''' 
-
+'''
 TRUE, FALSE, AND, OR, NOT
 TRUE and TRUE = TRUE
 TRUE and FALSE = FALSE
@@ -74,6 +72,27 @@ if username == "admin":
 else:
     print("Username is unrecognized. Please try again.")
 
+  
+
+# match -> is python's version of a switch statement
+# match statement contain:
+# match keyword
+# expression to be evaluated
+# case keyword
+# block of code to be executed if the case matches the expression
+# break keyword to exit the match statement if a 
+# case matches the expression
+
+status_code = int(input("Enter status code"))
+match status_code:
+    case 400:
+        print("Bad request")
+    case 404:
+        print("Not found")
+    case 200:
+        print("document found")
+    case _:
+        print("Something's wrong with the internet")
 
 
 
